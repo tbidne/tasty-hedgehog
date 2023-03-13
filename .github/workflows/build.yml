@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - ghc961
     paths:
       - ".github/**"
       - "src/**"

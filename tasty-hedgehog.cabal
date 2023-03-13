@@ -21,7 +21,7 @@ source-repository   head
 
 library
   exposed-modules:     Test.Tasty.Hedgehog
-  build-depends:       base >= 4.8 && <4.18
+  build-depends:       base >= 4.8 && <4.19
                      , tagged >= 0.8 && < 0.9
                      , tasty >= 0.11 && < 1.5
                      , hedgehog >= 1.2 && < 1.3

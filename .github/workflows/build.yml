@@ -26,6 +26,8 @@ jobs:
           - "8.10.7"
           - "9.0.2"
           - "9.2.2"
+          - "9.4.4"
+          - "9.6.1"
 
     steps:
       - name: Clone repository
@@ -33,7 +35,7 @@ jobs:
 
       - name: Install ghc-${{ matrix.ghc-version }}
         id: setup-haskell
-        uses: haskell/actions/setup@v2
+        uses: haskell/actions/setup@v2.3.5
         with:
           ghc-version: ${{ matrix.ghc-version }}
 
